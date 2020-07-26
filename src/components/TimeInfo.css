@@ -1,0 +1,8 @@
+.timecontainer{
+    padding: 15px;
+    background-color: rgb(32, 114, 236);
+    color: rgb(196, 215, 250);
+}
+.timecontainer>h4{
+    font-size: 97%;
+}

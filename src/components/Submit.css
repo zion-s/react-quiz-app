@@ -1,0 +1,12 @@
+.submitButton{
+    display: inline-block;
+    width: 90%;
+    margin-left: 5%;
+}
+.submitText{
+    float: left;
+}
+.fa-long-arrow-right{
+    float: right;
+    padding-top: 5px;
+}

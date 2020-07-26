@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Header from './components/Header';
+import TimeInfo from './components/TimeInfo';
+import Question from './components/Question';
+import Clock from './components/Clock';
+import QuestionNumber from './components/QuestionNumber';
+import QuestionDesc from './components/QuestionDesc';
+import Footer from './components/Footer';
+import Submit from './components/Submit';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="title"><Header /></div>
+      <div className="timeInfo"><TimeInfo /></div>
+      <div className="main"><Question /></div>
+      <div>
+        <div className="clock"><Clock /></div>
+        <div className="quesNumber"><QuestionNumber /></div>
+        <div className="quesDesc"><QuestionDesc /></div>
+      </div>
+      <div className="footer"><Footer /></div>
+      <div className="submit"><Submit /></div>
     </div>
   );
 }

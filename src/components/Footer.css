@@ -1,0 +1,12 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:0.2em;
+}
+.pageNumber>p{
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    margin-top: 0.2em;
+}
