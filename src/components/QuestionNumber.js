@@ -4,11 +4,18 @@ import './QuestionNumber.css';
 class QuestionNumber extends React.Component{
 
     render(){
+        var rows=[];
+        var total = this.props.total;
+        for(let i=1;i<=total;i++){
+            rows.push(<div className="circle">{i}</div>)
+        }
+
         return (
             <div className="numberWrapper">
                 <h5>Questions</h5>
                 <div className="numberContainer">
-                    <div className="circle">1</div>
+                    {rows}
+                    {/* <div className="circle">1</div>
                     <div className="circle">2</div>
                     <div className="circle">3</div>
                     <div className="circle">4</div>
@@ -25,7 +32,7 @@ class QuestionNumber extends React.Component{
                     <div className="circle">15</div>
                     <div className="circle">16</div>
                     <div className="circle">17</div>
-                    <div className="circle">18</div>
+                    <div className="circle">18</div> */}
                 </div>
             </div>
         )
