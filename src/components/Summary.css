@@ -1,0 +1,19 @@
+.nav.nav.nav-tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.summaryWrapper{
+    height: 600px;
+    overflow: scroll;
+}
+a.nav-item.nav-link{
+    background-color: rgb(2, 117, 216);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: white;
+    margin-bottom: 4px;
+}

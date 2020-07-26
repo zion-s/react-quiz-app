@@ -4,10 +4,14 @@
   grid-template-columns: 70vw 30vw;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 .title{ 
   height: 8vh;
 }
 .timeInfo{ 
   height: 8vh;
+}
+.rightPane{
+  border-left: 1px solid rgb(230, 230, 230);
 }

@@ -1,10 +1,9 @@
 .heading{
-    color: rgb(52, 112, 240);
+    color: rgb(2, 117, 216);
 }
 .back{
     position: absolute;
     left: 0;
-    background-color: rgb(207, 207, 207);
 }
 .container{
     position: relative;

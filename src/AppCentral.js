@@ -5,6 +5,7 @@ import Question from './components/Question';
 import Clock from './components/Clock';
 import QuestionNumber from './components/QuestionNumber';
 import QuestionDesc from './components/QuestionDesc';
+import Summary from './components/Summary';
 import Footer from './components/Footer';
 import Submit from './components/Submit';
 import data from './assets/data';
@@ -72,10 +73,12 @@ nextQuestion(){
                                       option3={answers[2]}
                                       option4={answers[3]}
                                       /></div>
-      <div>
+      <div className="rightPane">
         <div className="clock"><Clock /></div>
         <div className="quesNumber"><QuestionNumber total={total}/></div>
         <div className="quesDesc"><QuestionDesc /></div>
+      
+        {/* <Summary total={total}/> */}
       </div>
       <div className="footer"><Footer current={num}
                                       total={total}
